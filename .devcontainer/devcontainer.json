@@ -5,5 +5,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"remoteUser": "node",
-	"postCreateCommand": "cd /workspaces/BlocklySample/myblockly && sudo npm install --save blockly && sudo npm install -g http-server"
+	"postCreateCommand": "cd /workspaces/blockly/myblockly && sudo npm install --save blockly && sudo npm install -g http-server"
 }
